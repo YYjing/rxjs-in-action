@@ -1,0 +1,7 @@
+git remote add upstream https://github.com/docschina/rxjs-in-action.git
+git remote -v
+git fetch upstream
+git checkout cn
+git merge upstream/cn
+
+
